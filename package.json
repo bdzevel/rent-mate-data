@@ -1,0 +1,10 @@
+{
+  "name": "@bdzevel/data",
+  "version": "0.1.0",
+  "description": "Database access and models for RentMate",
+  "main": "index.js",
+  "author": "bdzevel",
+  "dependencies": {
+    "mongoose": "^4.10.8"
+  }
+}
