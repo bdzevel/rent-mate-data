@@ -1,5 +1,5 @@
 {
-  "name": "@bdzevel/data",
+  "name": "rent-mate-data",
   "version": "0.1.0",
   "description": "Database access and models for RentMate",
   "main": "index.js",
