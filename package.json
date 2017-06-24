@@ -5,8 +5,6 @@
   "main": "index.js",
   "author": "bdzevel",
   "scripts": {
-    "precommit": "grunt",
-    "prepush": "grunt"
   },
   "dependencies": {
     "mongoose": "^4.10.8"

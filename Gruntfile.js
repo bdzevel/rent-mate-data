@@ -4,7 +4,6 @@ module.exports = function(grunt) {
     eslint: {
       options: {
         config: '.eslintrc.js',
-        ignorePath: '.eslintignore',
       },
       src: [ '**/*.js' ],
     },
