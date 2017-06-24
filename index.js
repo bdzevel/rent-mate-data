@@ -35,7 +35,7 @@ function initialize(mongoUri) {
   mongoose.Promise = Promise;
 
   return connect(mongoUri)
-  .then(() => loadSchemas());
+    .then(() => loadSchemas());
 }
 
 module.exports.connect = initialize;

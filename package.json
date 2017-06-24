@@ -4,12 +4,19 @@
   "description": "Database access and models for RentMate",
   "main": "index.js",
   "author": "bdzevel",
+  "scripts": {
+    "precommit": "grunt",
+    "prepush": "grunt"
+  },
   "dependencies": {
     "mongoose": "^4.10.8"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "grunt": "^1.0.1",
+    "gruntify-eslint": "^4.0.0",
+    "husky": "^0.14.1"
   }
 }
