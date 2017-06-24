@@ -37,4 +37,4 @@ function initialize(mongoUri) {
     .then(() => loadSchemas());
 }
 
-module.exports = initialize;
+module.exports.connect = initialize;
