@@ -5,6 +5,7 @@ const UserSchema = new Schema({
   password: { type: String, required: true },
   firstName: String,
   lastName: String,
+  roles: [ String ],
 });
 
 module.exports = UserSchema;
