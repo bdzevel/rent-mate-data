@@ -26,7 +26,6 @@ const ListingSchema = new Schema({
     index: true,
   },
   rent: { type: CostBasisSchema, required: true },
-  fee: { type: CostBasisSchema, required: true },
   securityDeposit: { type: CostBasisSchema, required: true },
 });
 
