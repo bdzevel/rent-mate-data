@@ -16,6 +16,7 @@ const PropertySchema = new Schema({
     ref: 'user',
     index: true,
   },
+  name: { type: String, required: true },
   description: String,
   address: { type: AddressSchema, required: true },
   avatarUrl: String,
