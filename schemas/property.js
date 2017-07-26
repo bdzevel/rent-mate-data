@@ -5,7 +5,7 @@ const AddressSchema = new Schema({
   line2: String,
   city: { type: String, required: true, index: true },
   region: { type: String, required: true, index: true },
-  postalCode: { type: Number, required: true },
+  postalCode: { type: String, required: true },
   country: { type: String, required: true, index: true },
 });
 
