@@ -21,6 +21,9 @@ const PropertySchema = new Schema({
   address: { type: AddressSchema, required: true },
   avatarUrl: String,
   pictureUrls: [ String ],
+  bedrooms: Number,
+  bathrooms: Number,
+  size: Number,
 });
 
 module.exports = PropertySchema;
